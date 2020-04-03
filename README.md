@@ -20,3 +20,63 @@ Moving swiftly along...
 At this very moment I am busy hacking my Grid Tied Inverter system to pull data off and get it into Home Assistant. The problem is I need to sniff the communication protocol it uses off the serial port and inject commands of my own. To do this, I need a Serial Bridge, Protocol Analyzer and a simple Serial Terminal while I'm at it. So these will be the three modules I'll be working on first for the SwissThingy version 1.0.
 
 Before I can do that, I will need a Core to handle the user interface, menu system, hardware interfacing, over the air update and logging. The architecture is starting to take shape...
+
+Measure
+	Multimeter
+		Volts, Amps, Ohms, Hertz
+	Oscilloscope
+		Volts/Div
+		Time/Div
+	Logic Analyzer
+		Ch1, Ch2, Ch3, Ch4
+	Counter
+		Count
+		Reset
+	Sensor
+		Wifi
+			Scan
+		BLE
+			Scan
+		Hall
+			Interval [s]
+		Switch
+		Duty Cycle
+		UART
+      Baud
+      Bits
+      Start Bits
+      Stop Bits
+    1-Wire
+		I2C
+		SPI
+Generate
+	Sine
+		Frequency [Hz]
+		Amplitude [%]
+	Square
+		Frequency [Hz]
+	Triangle
+		Frequency [Hz]
+		Amplitude [%]
+	Pulse
+		On Time [ms]
+		Off Time [ms]
+		Repeat [count]
+	PCM
+		File
+	Servo
+		Position [%]
+		
+	UART
+		Serial
+		Midi
+		Modbus
+	MQTT
+	IP
+		HTTP
+		UDP
+	IR
+	LED
+	I2C
+	SPI
+
